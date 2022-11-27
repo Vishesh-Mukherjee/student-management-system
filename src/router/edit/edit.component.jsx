@@ -60,7 +60,7 @@ const Edit = () => {
                         onChange: onChangeHandler,
                     }} />
                     <ButtonContainer>
-                        <Button type="submit">Edit</Button>
+                        <Button type="submit">EDIT</Button>
                     </ButtonContainer>
                </Form>
             </Container>
