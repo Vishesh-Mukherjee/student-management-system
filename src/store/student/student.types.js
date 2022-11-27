@@ -1,0 +1,3 @@
+export const STUDENT_ACTION_TYPES = {
+    SET_STUDENT_LIST: "SET_STUDENT_LIST",
+}

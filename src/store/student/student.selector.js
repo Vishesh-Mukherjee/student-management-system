@@ -1,0 +1,1 @@
+export const selectStudentList = (state) => state.student.studentList;
