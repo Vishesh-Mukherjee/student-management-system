@@ -21,7 +21,7 @@ const ViewCard = ({ id, student }) => {
             </NameContainer>
             <Email>{email}</Email>
             <ButtonContainer>
-                <LinkButton to={"/edit/"+id}>EDIT</LinkButton>
+                <LinkButton to={"/project/sms/edit/"+id}>EDIT</LinkButton>
                 <Button onClick={deleteStudent}>DELETE</Button>
             </ButtonContainer>
         </Container>

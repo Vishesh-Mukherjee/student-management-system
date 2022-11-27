@@ -30,7 +30,7 @@ const Edit = () => {
         studentList[index].lastName = student.lastName;
         studentList[index].email = student.email;
         dispatch(setStudentList(studentList));
-        navigate("/view");
+        navigate("/project/sms/view");
     }
 
     return (

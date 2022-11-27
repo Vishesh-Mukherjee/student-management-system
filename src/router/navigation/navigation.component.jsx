@@ -3,9 +3,9 @@ import { Container, NavLink } from "./navigation.styles"
 const Navigation = () => {
     return (
         <Container>
-            <NavLink to="/">HOME</NavLink>
-            <NavLink to="/add">ADD</NavLink>
-            <NavLink to="/view">VIEW</NavLink>
+            <NavLink to="/project/sms">HOME</NavLink>
+            <NavLink to="/project/sms/add">ADD</NavLink>
+            <NavLink to="/project/sms/view">VIEW</NavLink>
         </Container>
     )
 }

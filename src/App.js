@@ -9,10 +9,10 @@ function App() {
   return (
     <Container>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/add" element={<Add />} />
-        <Route path="/view" element={<View />} />
-        <Route path="/edit/:id" element={<Edit />} />
+        <Route path="project/sms/" element={<Home />} />
+        <Route path="project/sms/add" element={<Add />} />
+        <Route path="project/sms/view" element={<View />} />
+        <Route path="project/sms/edit/:id" element={<Edit />} />
       </Routes>
     </Container>
   );

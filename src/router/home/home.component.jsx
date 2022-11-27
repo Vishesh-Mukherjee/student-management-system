@@ -3,10 +3,10 @@ import { Container, LinkDiv, Links, CustomLink, Text, Title } from "./home.style
 const Home = () => {
     return (
         <Container>
-            <Title>STUDENET MANAGEMENT SYSTMEM</Title>
+            <Title>STUDENT MANAGEMENT SYSTEM</Title>
             <Links>
-                <LinkDiv><CustomLink to="/add"><Text>ADD</Text></CustomLink></LinkDiv>
-                <LinkDiv ><CustomLink to="/view"><Text>VIEW</Text></CustomLink></LinkDiv>
+                <LinkDiv><CustomLink to="/project/sms/add"><Text>ADD</Text></CustomLink></LinkDiv>
+                <LinkDiv ><CustomLink to="/project/sms/view"><Text>VIEW</Text></CustomLink></LinkDiv>
             </Links>
         </Container>
     )

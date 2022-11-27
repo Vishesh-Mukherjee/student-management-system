@@ -28,7 +28,7 @@ const Add = () => {
     const onSubmitHandler = (event) => {
         event.preventDefault();
         dispatch(setStudentList([...studentList, formFields])); 
-        navigate("/view");
+        navigate("/project/sms/view");
     }
 
     return (
